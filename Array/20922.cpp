@@ -14,7 +14,7 @@ int main() {                //쉽지않음...
 
     int answer = 0;
 
-    for(right=0;right<n;right++) {
+    for(right=0;right<n;right++) { //투포인터......
         count[arr[right]]++;
 
         while(count[arr[right]] > k) {
