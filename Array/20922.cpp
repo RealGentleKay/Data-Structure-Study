@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 
-int main() {
+int main() {                //쉽지않음...
     int n,k;
     std::cin >> n >> k;
     int left = 0, right = 0;
